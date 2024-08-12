@@ -1,6 +1,6 @@
 locals {
   engine    = "aurora-postgresql"
-  version   = "13.12"
+  version   = "13"
   port      = "5432"
   stack     = "${var.stack}-${var.environment}"
   db_family = "aurora-postgresql13"
